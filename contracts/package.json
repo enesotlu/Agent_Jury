@@ -1,0 +1,17 @@
+{
+    "name": "agent-jury-contracts",
+    "version": "1.0.0",
+    "description": "Agent Jury Smart Contracts",
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "node": "npx hardhat node",
+        "deploy:local": "npx hardhat ignition deploy ./ignition/modules/AgentJury.js --network localhost",
+        "deploy:monad": "npx hardhat ignition deploy ./ignition/modules/AgentJury.js --network monadTestnet"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "dotenv": "^16.4.5",
+        "ethers": "^6.16.0",
+        "hardhat": "^2.22.5"
+    }
+}
