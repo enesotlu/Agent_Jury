@@ -1,0 +1,15 @@
+{
+  "name": "agent-jury-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent Jury - Multi-agent AI evaluation system with on-chain verdict storage",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install && cd ../contracts && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:contracts": "cd contracts && npx hardhat node",
+    "compile:contracts": "cd contracts && npx hardhat compile"
+  },
+  "author": "enesotlu",
+  "license": "MIT"
+}
